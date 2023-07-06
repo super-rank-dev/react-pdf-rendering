@@ -1,4 +1,5 @@
 import React from 'react';
+import { Document, Page, View, Text, StyleSheet } from '@react-pdf/renderer';
 
 import Header from '../layouts/Header';
 import AccountInfo from '../layouts/AccountInfo';
@@ -8,15 +9,25 @@ import TransactionHistory from '../layouts/TransactionHistory';
 
 import '../assets/stylesheets/Invoice.css';
 
+const styles = StyleSheet.create({
+    container: {
+        display: 'flex',
+        flexDirection: 'column',
+        padding: '46px 30px'
+    }
+});
+
 const Invoice = () => {
     return (
-        <div className='container'>
-            <Header />
-            <AccountInfo />
-            <License />
-            <Income />
-            <TransactionHistory />
-        </div>
+        <Document>
+            <Page style={styles.container}>
+                <Header />
+                <AccountInfo />
+                <License />
+                <Income />
+                <TransactionHistory />
+            </Page>
+        </Document>
     );
 }
 
