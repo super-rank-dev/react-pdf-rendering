@@ -1,0 +1,201 @@
+.container {
+    padding: 46px 30px;
+}
+
+.line {
+    height: 1px;
+    background-color: rgba(135, 135, 135, 0.39);
+}
+
+.table .row {
+    display: flex;
+    padding: 5px 10px 7px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.39);
+}
+
+.table .row div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.table .header {
+    color: #1F67D6;
+    text-align: right;
+    font-size: 9.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background-color: #E8F0FB;
+    border-radius: 1px solid #1F67D6;
+}
+
+.table .content {
+    color: #000;
+    text-align: right;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.table p {
+    margin: 0;
+}
+
+.table .text-header {}
+
+.table .text-content {
+    color: #454745;
+    font-size: 7.7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header {}
+
+.header .logo p {
+    color: #454745;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 11px;
+}
+
+.header span {
+    color: #000;
+}
+
+.header .date p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header .stamp {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.account_info {
+    display: flex;
+}
+
+.account_info .header {
+    color: #000;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.account_info .content {
+    color: #000;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.account_info .col {
+    display: flex;
+    align-items: center;
+}
+
+.account_holder {
+    flex-grow: 1;
+}
+
+.account_others {
+    flex-grow: 2;
+}
+
+.account_others .row {
+    display: flex;
+}
+
+.account_others .row div {
+    flex-grow: 1;
+}
+
+.account_others .item {
+    padding: 13px 0;
+}
+
+.account_others .item p {
+    margin: 0 8px;
+}
+
+.account_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account_items .item {
+    display: flex;
+    align-items: center;
+}
+
+.account_items .item p {
+    margin: 2px 8px;
+}
+
+.account_items .header {
+    color: #000;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.account_items .content {
+    color: #000;
+    font-size: 9.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.account_open_orders {
+    margin: 40px 0;
+}
+
+.license .caption {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.license>div {
+    margin: 15px 0 25px;
+}
+
+.income .caption {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.income>div {
+    margin: 15px 0 25px;
+}
+
+.transaction_history {
+    margin: 40px 0;
+}
+
+.transaction_history .caption {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
